@@ -1,0 +1,156 @@
+/* Global styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #f9f9f9;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Navbar styles */
+
+nav {
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding: 10px;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  color: #007bff;
+}
+
+/* About styles */
+
+#about {
+  background-color: #fff;
+  padding: 60px 0;
+}
+
+#about p {
+  margin-bottom: 20px;
+}
+
+/* Projects styles */
+
+#projects {
+  background-color: #f9f9f9;
+  padding: 60px 0;
+}
+
+#projects ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#projects li {
+  width: calc(50% - 20px);
+  margin-bottom: 40px;
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+#projects li:last-child {
+  margin-right: 0;
+}
+
+#projects h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#projects p {
+  margin-bottom: 20px;
+}
+
+/* Contact styles */
+
+#contact {
+  background-color: #fff;
+  padding: 60px 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+label {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+input,
+textarea {
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+}
+
+textarea {
+  height: 200px;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0069d9;
+}
